@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #topbox {
+          
+            flex-direction: column;
+        }
+
+        #bottombox {
+            width: 50px;
+            height: 200px;
+            background: gray;
+            border-radius: 8px;
+        }
+       
+            #bottombox { 
+            width: 400px;
+            height: 500px;
+            background: gray;
+        
+            }
+
+        #box{
+            width: 50px;
+            height: 200px;
+            border-radius: 8px;
+        }
+        
+        
+
+        .circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: rgb(80,80,83);
+background: linear-gradient(90deg, rgba(80,80,83,1) 71%, rgba(218,218,218,1) 100%, rgba(0,212,255,1) 100%);
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            
+            justify-content: center;
+            
+            height: 300px;
+            
+        }
+
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+        }
+
+        .btn-style {
+            width: 120px;
+            height: 30px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: white;
+            margin: 15px;
+        }
+
+        .alinhar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .coluna{
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="topbox" class="container">
+        <div class="circle"></div>
+        <div>
+            <div class="alinhar coluna">
+            <h1>João Vitor</h1>
+            <p>Estudante do colégio FAP, RA 008757</p>
+        </div>
+            <div class="alinhar">
+                <p>
+                <div class="btn-style">
+                    <p>Linkedln</p>
+                </div>
+                </p>
+
+                <p>
+                <div class="btn-style">
+                    <p>GitHub</p>
+                </div>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="bottombox">
+        <div id="circle"></div>
+        <div id="container"></div>
+        <div id="item">
+            <div></div>
+        </div>
+        
+        
+
+    </div>
+</body>
+
+</html>
